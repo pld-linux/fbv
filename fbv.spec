@@ -1,14 +1,13 @@
 Summary:	FrameBuffer Viewer
 Summary(pl):	Przegl±darka obrazków dla framebuffera
 Name:		fbv
-Version:	0.99
-Release:	3
+Version:	1.0b
+Release:	1
 License:	GPL
 Group:		Applications/Graphics
 Source0:	http://s-tech.elsat.net.pl/fbv/%{name}-%{version}.tar.gz
-# Source0-md5:	fd237cb79ab26d30a7f8bb526a78bd0a
-Patch0:		%{name}-libs.patch
-Patch1:		%{name}-nocenter.patch
+# Source0-md5:	3e466375b930ec22be44f1041e77b55d
+Patch0:		%{name}-nocenter.patch
 URL:		http://s-tech.elsat.net.pl/
 BuildRequires:	libjpeg-devel
 BuildRequires:	libpng-devel
@@ -26,7 +25,6 @@ Obs³uguje pliki PNG, JPEG, GIF i BMP.
 %prep
 %setup -q
 %patch0 -p1
-%patch1 -p1
 
 %build
 # it's not autoconf script
