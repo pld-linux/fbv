@@ -3,7 +3,7 @@ diff -u fbv-1.0b.oryg/ChangeLog fbv-1.0b/ChangeLog
 +++ fbv-1.0b/ChangeLog	2004-09-20 16:32:28.095642672 +0200
 @@ -1,3 +1,6 @@
 +	2003-10-19	Pawe³ ¯urowski	pzurowski@post.pl
-+      * added --nocenter option: image won't be in center of the screen. Usefull with -c and -i options. Based on contributed patch from fbgetty
++      * added --nocenter option: image won't be in center of the screen. Useful with -c and -i options. Based on contributed patch from fbgetty
 +      
  0.99    2003-08-24      Mateusz Golicz mtg@elsat.net.pl
        * fixes in transparent and interlaced GIF & PNG support
@@ -57,7 +57,7 @@ diff -u fbv-1.0b.oryg/main.c fbv-1.0b/main.c
 -		   " --donthide    | -u : Do not hide the cursor before and after displaying the image\n"
 +		   " --noclear     | -c : Do not clear the screen before and after displaying the image\n"
 +		   " --unhide      | -u : Do not hide the cursor before and after displaying the image\n"
-+		   " --nocenter    | -z : Do not center image on the screen (usefull with  -c and -i)\n"
++		   " --nocenter    | -z : Do not center image on the screen (useful with  -c and -i)\n"
  		   " --noinfo      | -i : Supress image information\n"
  		   " --stretch     | -f : Strech (using a simple resizing routine) the image to fit onto screen if necessary\n"
  		   " --colorstretch| -k : Strech (using a 'color average' resizing routine) the image to fit onto screen if necessary\n"
