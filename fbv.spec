@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Graphics
 Source0:	http://s-tech.elsat.net.pl/fbv/%{name}-%{version}.tar.gz
+# Source0-md5:	d1c0658681498b8d4ba782d582d4e66b
 Patch0:		%{name}-libs.patch
 URL:		http://s-tech.elsat.net.pl/
 BuildRequires:	libjpeg-devel
