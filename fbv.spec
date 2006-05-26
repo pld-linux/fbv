@@ -9,9 +9,9 @@ Source0:	http://s-tech.elsat.net.pl/fbv/%{name}-%{version}.tar.gz
 # Source0-md5:	3e466375b930ec22be44f1041e77b55d
 Patch0:		%{name}-nocenter.patch
 URL:		http://s-tech.elsat.net.pl/
+BuildRequires:	giflib-devel
 BuildRequires:	libjpeg-devel
 BuildRequires:	libpng-devel
-BuildRequires:	libungif-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
