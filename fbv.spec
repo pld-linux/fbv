@@ -1,5 +1,5 @@
 Summary:	FrameBuffer Viewer
-Summary(pl.UTF-8):   Przeglądarka obrazków dla framebuffera
+Summary(pl.UTF-8):	Przeglądarka obrazków dla framebuffera
 Name:		fbv
 Version:	1.0b
 Release:	1
