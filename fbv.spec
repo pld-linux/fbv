@@ -1,5 +1,5 @@
 Summary:	FrameBuffer Viewer
-Summary(pl):	Przegl±darka obrazków dla framebuffera
+Summary(pl.UTF-8):   PrzeglÄ…darka obrazkÃ³w dla framebuffera
 Name:		fbv
 Version:	1.0b
 Release:	1
@@ -18,9 +18,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A simple program to view pictures on a framebuffer console. It
 supports PNG, JPEG, GIF and BMP files.
 
-%description -l pl
-Prosty program do ogl±dania obrazków na konsoli z framebufferem.
-Obs³uguje pliki PNG, JPEG, GIF i BMP.
+%description -l pl.UTF-8
+Prosty program do oglÄ…dania obrazkÃ³w na konsoli z framebufferem.
+ObsÅ‚uguje pliki PNG, JPEG, GIF i BMP.
 
 %prep
 %setup -q
