@@ -2,7 +2,7 @@ Summary:	FrameBuffer Viewer
 Summary(pl.UTF-8):	Przeglądarka obrazków dla framebuffera
 Name:		fbv
 Version:	1.0b
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Graphics
 Source0:	http://s-tech.elsat.net.pl/fbv/%{name}-%{version}.tar.gz
