@@ -12,6 +12,7 @@ URL:		http://s-tech.elsat.net.pl/
 BuildRequires:	giflib-devel
 BuildRequires:	libjpeg-devel
 BuildRequires:	libpng-devel
+BuildRequires:	util-linux-ng
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
